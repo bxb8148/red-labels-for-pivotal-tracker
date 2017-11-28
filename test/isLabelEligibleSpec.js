@@ -13,7 +13,7 @@ describe('isLabelEligible', function () {
     });
 
     it('needs-pm', function () {
-      expect(isLabelEligible('needs-pm')).toEqual(true);
+      expect(isLabelEligible('needs grooming')).toEqual(true);
     });
 
     it('▩▩blocked▩▩', function () {
